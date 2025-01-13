@@ -6,11 +6,19 @@ body {
     font-family: Roboto;
 }
 
-.wrapper {
-    margin: 0 25%;
+.container {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: 1;
 }
 
 header {
