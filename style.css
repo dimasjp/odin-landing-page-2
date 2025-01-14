@@ -22,18 +22,37 @@ body {
 }
 
 header {
-    background-color: #1f2937;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.dark-bg {
+    background-color: #1f2937;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 16px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 300;
 }
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 
